@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Sunrise Travel</h1>
+            <nav class="main-nav">
+                <a href="#packages">Packages</a>
+                <a href="#booking">Book</a>
+                <a href="#tips">Travel Tips</a>
+                <a href="#gallery">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Discover your next adventure</h2>
+            <p>Carefully curated tour packages, easy booking, and expert travel tips.</p>
+            <a class="btn" href="#packages">Explore Packages</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="packages" class="packages">
+            <h3>Popular Tour Packages</h3>
+            <div class="grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Beach getaway">
+                    <h4>Beach Getaway</h4>
+                    <p>5 days of sun, sand and relaxation. Flights + hotel included.</p>
+                    <p class="price">From ₹49,999</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Mountain escape">
+                    <h4>Mountain Escape</h4>
+                    <p>Hiking, cabins and scenic views for outdoor lovers.</p>
+                    <p class="price">From ₹55,499</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="City break">
+                    <h4>City Explorer</h4>
+                    <p>Culture, food and city tours in top destinations.</p>
+                    <p class="price">From ₹39,999</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="booking" class="booking">
+            <h3>Quick Booking</h3>
+            <form class="booking-form">
+                <label>Full name
+                    <input type="text" name="name" placeholder="Your name">
+                </label>
+                <label>Email
+                    <input type="email" name="email" placeholder="you@example.com">
+                </label>
+                <label>Package
+                    <select name="package">
+                        <option>Beach Getaway</option>
+                        <option>Mountain Escape</option>
+                        <option>City Explorer</option>
+                    </select>
+                </label>
+                <label>Travel dates
+                    <input type="date" name="date">
+                </label>
+                <button class="btn" type="submit">Request Booking</button>
+            </form>
+        </section>
+
+        <section id="tips" class="tips">
+            <h3>Travel Tips</h3>
+            <ul>
+                <li>Check visa and entry requirements before you travel.</li>
+                <li>Pack a small first-aid kit and photocopies of important documents.</li>
+                <li>Buy travel insurance for peace of mind.</li>
+                <li>Respect local customs and be open to new experiences.</li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h3>Gallery</h3>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600&auto=format&fit=crop&crop=entropy" alt="Destination 1">
+                <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=600&auto=format&fit=crop&crop=entropy" alt="Destination 2">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600&auto=format&fit=crop&crop=entropy" alt="Destination 3">
+                <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=600&auto=format&fit=crop&crop=entropy" alt="Destination 4">
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Sunrise Travel — <a href="#">Contact us</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
